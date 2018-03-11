@@ -47,7 +47,7 @@ Module.register("MMM-RandomPhoto",{
 
 	getDom: function() {
 		var wrapper = document.createElement("div");
-		wrapper.innerHTML = '<img id="mmm-photos-placeholder1" style="opacity: 0; position: absolute" /><img id="mmm-photos-placeholder2" style="opacity: 0; position: absolute" />';
+		wrapper.innerHTML = '<img id="mmm-photos-placeholder1" style="opacity: 0; position: absolute; top: 0" /><img id="mmm-photos-placeholder2" style="opacity: 0; position: absolute; top: 0" />';
 		return wrapper;
 	},
 	getScripts: function() {
